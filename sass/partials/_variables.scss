@@ -1,0 +1,61 @@
+$light_blue :#C7F7FF;
+$med_blue: #89C0C9;
+$dark_blue: #3a5E63;
+$light_brown: #C9A689;
+$dark_brown:  #7C593C;
+$light_grey:  #d4d4d4;
+$dark_grey:   #222;
+$white: #fff;
+
+
+// Font Family
+
+//Default
+$default_font: 'Josefin Sans';
+$default_second_font:  ‘Trebuchet MS’;
+$default_third_font: Helvetica;
+
+
+// Headers
+$header_default_font: Cardo;
+$header_second_font:  ‘Palatino Linotype’;
+$header_third_font: ‘Book Antiqua’;
+$header_forth_font: Palatino;
+
+
+// Main fonts
+$sans-serif-font: $default_font, $default_second_font, $default_third_font, sans-serif;
+$serif-font: $header_default_font, $header_second_font, $header_third_font,$header_forth_font, serif;
+
+// Maps
+
+$bg:(
+    focal: $light_brown $dark_brown,
+    content1:$white $dark_grey,
+    content2:$light_blue $dark_blue,
+    footer:$white $light_grey 
+
+    );
+
+    
+
+// //Colors
+// $color_spicy_mix_approx: #7c593c; //darkbrown
+// $color_quill_gray_approx: #d4d4d4; //light grey
+// $white: #fff;
+// $color_half_baked_approx: #89c0c9;//med blue
+// $color_casal_approx: #3a5e63;//dark blue
+// $color_indian_khaki_approx: #c9a689; //light brown
+// $color_onahau_approx: #c7f7ff;//light blue
+// $color_log_cabin_approx: #222; //dark grey
+
+// //Fonts
+// $font_0: Josefin Sans;
+// $font_1: Trebuchet MS;
+// $font_2: Helvetica;
+// $font_3: sans-serif;
+// $font_4: Cardo;
+// $font_5: Palatino Linotype;
+// $font_6: Book Antiqua;
+// $font_7: Palatino;
+// $font_8: serif;

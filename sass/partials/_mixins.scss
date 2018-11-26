@@ -1,0 +1,18 @@
+
+@mixin bg($map){
+    @each $key,$value in $map{
+      .bg-#{$key}{
+        background-color: nth($value,1);
+        color: nth($value,2);
+        }
+      }
+    }
+
+@mixin columnCalculator($col-number,$width,$margin-size) {
+  width: percentage((($width - $margin-size*($col-number - 1))/$col-number)/100);
+  margin-left: percentage($margin-size/100);
+
+  &:first-child{
+    margin-left: 0;
+  }
+}
